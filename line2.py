@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 x = [1,2,3,4,5,6,7,8,9]
-y = [111,100,81,62,80,84,73,103,77]
+y = [111,100,81,62,80,84,73,103,93]
 y2 = [140,115,None,127,151,62,148,179,156]
 
 plt.plot(x,y,'bo-',linewidth=2,label='an evening of coding')
@@ -9,7 +9,7 @@ plt.plot(x,y2,'ro--',linewidth=2,label='monthly python')
 
 #formatting
 plt.title('Python Meetup Attendence')
-plt.ylabel('Members')
+plt.ylabel('Attendees')
 plt.xlabel('Months')
 plt.legend()
 
